@@ -1,0 +1,128 @@
+@font-face {
+	font-family: ChivoMono-Medium;
+	src: url(ChivoMono-Medium.ttf);
+}
+@font-face {
+	font-family: ChivoMono-Light;
+	src: url(ChivoMono-Light.ttf);
+}
+
+body, html
+{
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+
+.limiter {
+  font-family: ChivoMono-Light;
+	width: 100%;
+	margin: 0 auto;
+  }
+
+.login-dark {
+    height:1000px;
+    background:#969696 url(../images/gym1.jpg);
+    background-size:cover;
+    position:relative;
+  }
+  
+
+  .login-dark .login-container {
+    max-width:420px;
+    width:90%;
+    background-color:#1e2833;
+    padding:40px;
+    border-radius:4px;
+    transform:translate(-50%, -50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:#fff;
+    box-shadow:5px 5px 6px rgb(33, 74, 128);
+    /*box-shadow:5px 5px 6px rgba(0,0,0,0.2); */
+  }
+
+  .login-dark .login-container .form-control {
+    background:none;
+    border:none;
+    border-bottom:1px solid #434a52;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color:inherit;
+  }
+
+  .login-dark .login-container .btn-primary {
+    background:rgb(33, 74, 128);
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:26px;
+    text-shadow:none;
+    outline:none;
+    width: 100%;
+    opacity:0.8;
+
+  }
+  .login-dark .login-container .forgot {
+    padding-top:11px;
+    display:block;
+    text-align:center;
+    font-size:13px;
+    color:#6f7a85;
+    opacity:0.9;
+    text-decoration:none;
+  }
+  
+  .login-dark .login-container .forgot:hover, .login-dark .login-container .forgot:active {
+    opacity:1;
+    text-decoration:none;
+  }
+  
+  .login-dark .login-container .btn-primary:hover, .login-dark .login-container .btn-primary:active {
+    /*background:#214a80; */
+    /*background: #6f7a85; */
+    outline:none;
+    opacity:1;
+  }
+  
+  .login-dark .login-container .btn-primary:active {
+    transform:translateY(1px);
+  }
+  
+  .login-dark .illustration {
+    text-align:center;
+    padding:15px 0 50px;
+    font-size:100px;
+    color:#2980ef;
+  }
+  p {
+    text-align:center;
+    text-decoration-color: #2980ef;
+    font-size:36px;
+    color:#2980ef;
+  }
+  
+ 
+  label {
+    color:#6f7a85;
+  }
+  
+  hr {
+	width: 100%;
+	color: rgb(33, 74, 128);
+  }
+
+  .error-message {
+  color: red;
+  }
+  
+  span {
+  padding-left: 10px;
+  }
+
+  
+  
